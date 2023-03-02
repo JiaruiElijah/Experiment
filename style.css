@@ -1,0 +1,54 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+{
+  box-sizing: border-box;
+}
+
+.mainBox{
+  display: flex;
+
+}
+
+.flexParent{
+  display: flex;
+
+}
+
+.mainBox div {
+  background-color: #2D2D2D;
+  color: white;
+}
+
+.flexParent > div{
+  font-size: 15px;
+  background-color: black;
+}
+
+/*.flexParent + p{
+  text-decoration: underline;
+}*/
+
+.flexParent  p1{
+  text-decoration: underline;
+}
+
+.mainBox > div{
+  font-size: 45px;
+  background-color: purple;
+  background-size: cover;
+  background:url(1.jpg);
+  background-repeat: round;
+}
+
+.flexParent2 div {
+  display: flex;
+  flex-direction: column;
+  font-size: 3vmax;
+  background-color: blue;
+
+
+}
+
